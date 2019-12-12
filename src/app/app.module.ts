@@ -10,12 +10,11 @@ import { ControlComponent } from './index/control/control.component';
 import { ProcessComponent } from './index/process/process.component';
 import { StatsComponent } from './index/stats/stats.component';
 import { ProfileComponent } from './index/profile/profile.component';
-import { SettingsComponent } from './index/settings/settings.component';
 import { LoginComponent } from './index/login/login.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HeaderComponent, FooterComponent, LeftbarComponent, ControlComponent, ProcessComponent, StatsComponent, ProfileComponent, SettingsComponent, LoginComponent ],
+  declarations: [ AppComponent, HeaderComponent, FooterComponent, LeftbarComponent, ControlComponent, ProcessComponent, StatsComponent, ProfileComponent, LoginComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
